@@ -86,7 +86,8 @@ nav a:hover {
 footer {
     text-align: center;
     background: url("bg.jpg");
-    padding: 40px 0;
+    padding: 1em 0;
+    height: 16em;
 }
 
 .copyright {
@@ -178,14 +179,13 @@ th {
 }
 
 .principal {
-    padding: 3em 0;
+    padding: 2em 1em;
     margin: 2em auto;
     width: 940px;
 }
 
 .principal p {
     margin: 0 0 1em;
-    width: 940px;
 }
 
 .principal strong {
@@ -203,7 +203,7 @@ th {
 }
 
 .mapa {
-    padding: 1em 0;
+    padding: 1em 1em;
     background: linear-gradient(#ffffff, #e3fcf8);
 }
 
@@ -213,12 +213,12 @@ th {
 }
 
 .mapa p {
-    margin: 0 0 2em;
+    margin: 1em 1em 2em;
     text-align: center;
 }
 
 .beneficios {
-    padding: 3em 0;
+    padding: 3em 1em;
     background: #e3fcf8;
 }
 
@@ -227,10 +227,16 @@ th {
     margin: 0 auto;
 }
 
+.bloco-imagem {
+    width: 78.5%;
+    margin-left: auto;
+}
+
 .lista-beneficios {
     width: 40%;
     display: inline-block;
     vertical-align: top;
+    padding: 1em;
 }
 
 .itens {
@@ -246,10 +252,11 @@ th {
 }
 
 .imagembeneficios {
-    width: 60%;
+    width: 15%;
+    padding: 0 1em;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 0px 0px 20px 10px #888888;
+    /*box-shadow: 0px 0px 20px 10px #888888;*/
 }
 
 .imagembeneficios:hover {
@@ -257,7 +264,7 @@ th {
 }
 
 .imagembeneficios:active {
-    width: 100%;
+    width: 25%;
     opacity: 1;
 }
 
