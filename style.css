@@ -164,7 +164,7 @@ th {
 .titulocentro {
     text-align: center;
     font-size: 2em;
-    margin: 0 0 1em;
+    margin: 0 0 15px 0;
     clear: left;
     color: #0f7f83;
     /*text-shadow: 2px 2px 2px rgb(179, 177, 177);*/
@@ -179,8 +179,8 @@ th {
 }
 
 .principal {
-    padding: 2em 1em;
-    margin: 2em auto;
+    padding: 2em 1em 0;
+    margin: 2em auto 0;
     width: 940px;
 }
 
@@ -203,8 +203,8 @@ th {
 }
 
 .mapa {
-    padding: 1em 1em;
-    background: linear-gradient(#ffffff, #e3fcf8);
+    padding: 1em 1em 3em;
+    background: linear-gradient(#c8fff9, #69d7cc);
 }
 
 .mapa-conteudo {
@@ -218,8 +218,9 @@ th {
 }
 
 .beneficios {
-    padding: 3em 1em;
-    background: #e3fcf8;
+    width: 100%;
+    padding: 1em 0;
+    background: #ffffff;
 }
 
 .conteudo-beneficios {
@@ -227,16 +228,28 @@ th {
     margin: 0 auto;
 }
 
+.conteudo-estudio {
+    width: 100%;
+}
+
 .bloco-imagem {
-    width: 78.5%;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
     margin-left: auto;
+    background: linear-gradient(#ffffff, #c8fff9);
+}
+
+.bloco-imagem2 {
+    width: 100%;
 }
 
 .lista-beneficios {
-    width: 40%;
+    text-align: center;
+    width: 100%;
     display: inline-block;
     vertical-align: top;
-    padding: 1em;
+    padding: 1em 0;
 }
 
 .itens {
@@ -253,18 +266,17 @@ th {
 
 .imagembeneficios {
     width: 15%;
-    padding: 0 1em;
-    opacity: 1;
+    opacity: 0.8;
     transition: 400ms;
     /*box-shadow: 0px 0px 20px 10px #888888;*/
 }
 
 .imagembeneficios:hover {
-    opacity: 0.3;
+    opacity: 1;
 }
 
 .imagembeneficios:active {
-    width: 25%;
+    width: 35%;
     opacity: 1;
 }
 
