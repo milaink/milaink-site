@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url("bg.jpg");
+    background: url("../imagens/bg.jpg");
     height: 250px;
     padding: 20px 0;
 }
@@ -85,7 +85,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("../imagens/bg.jpg");
     padding: 1em 0;
     height: 16em;
 }
@@ -327,6 +327,23 @@ th {
     .imagembeneficios {
         width: 100%;
     }
+}
+
+.x {
+    background-color: #000000;
+}
+
+.fundo {
+    text-align: center;
+}
+
+.foto {
+    width: 70%;
+}
+
+.imagem-tattoo {
+    width: 35px;
+    padding: 20px;
 }
 
 
