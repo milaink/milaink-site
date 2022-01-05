@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: url("../imagens/bg.jpg");
+    background: url("../imagens/banner.jpg");
     height: 250px;
     padding: 20px 0;
 }
@@ -43,21 +43,27 @@ main {
     margin: 0 auto;
 }
 
-.imagembeneficios {
+.principal {
+    padding: 2em 1em 0;
+    margin: 2em auto 0;
+    width: 940px;
+}
+
+.foto-tattoo {
     padding-top: 8px;
     width: 19%;
-    opacity: 0.8;
+    opacity: 1;
     transition: 400ms;
     /*box-shadow: 0px 0px 20px 10px #888888;*/
 }
 
-.imagembeneficios:hover {
-    opacity: 1;
+.foto-tattoo:hover {
+    opacity: 0.8;
 }
 
 footer {
     text-align: center;
-    background: url("../imagens/bg.jpg");
+    background: url("../imagens/banner.jpg");
     padding: 1em 0;
     height: 16em;
 }
