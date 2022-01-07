@@ -5,24 +5,18 @@ body {
 header {
     background: url("../imagens/banner.jpg");
     height: 250px;
-    padding: 20px 0;
-}
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 nav {
     position: absolute;
-    top: 110px;
-    right: 0;
+    right: 1.5em;
+    top: 13.5em;
 }
 
 nav li {
     display: inline;
-    margin: 0 0 0 20px;
+    margin: 0.6em;
 }
 
 nav a {
@@ -112,12 +106,10 @@ th {
 footer {
     text-align: center;
     background: url("../imagens/banner.jpg");
-    padding: 1em 0;
     height: 16em;
 }
 
 .copyright {
     color: azure;
     font-size: 13px;
-    margin: 20px;
 }
