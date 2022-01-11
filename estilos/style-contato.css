@@ -68,7 +68,7 @@ form legend {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background: orange;
+    background: rgb(0, 190, 165);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -79,8 +79,8 @@ form legend {
 }
 
 .enviar:hover {
-    background: darkorange;
-    transform: scale(1.2);
+    background: rgb(3, 150, 137);
+    transform: scale(1.04);
 }
 
 table {
@@ -88,7 +88,7 @@ table {
 }
 
 thead {
-    background: #312f2f;
+    background: #3c5e5b;
     color: #ffffff;
     font-weight: bold;
 }
