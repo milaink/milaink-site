@@ -4,8 +4,8 @@ body {
 
 header {
     background: url("../imagens/banner.jpg");
-    height: 250px;
     text-align: center;
+    padding-bottom: 1.5em;
 }
 
 nav {
@@ -57,7 +57,7 @@ main {
 footer {
     text-align: center;
     background: url("../imagens/banner.jpg");
-    height: 16em;
+    height: 15.8em;
 }
 
 .copyright {
