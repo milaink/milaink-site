@@ -38,6 +38,7 @@ main {
 }
 
 .principal {
+    background: white;
     padding: 2em 1em 0;
     margin: 2em auto 0;
     width: 90%;
@@ -161,10 +162,22 @@ main {
     margin: 0 auto;
 }
 
+thead {
+    background: #3c5e5b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
 footer {
     text-align: center;
     background: url("../imagens/banner.jpg");
-    height: 15.8em;
+    height: 11.2em;
 }
 
 .copyright {

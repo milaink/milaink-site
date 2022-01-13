@@ -38,9 +38,8 @@ main {
 }
 
 .principal {
-    padding: 1em 1em 0;
+    padding: 1em 18em 0px;
     margin: 1em auto 1em;
-    width: 940px;
 }
 
 form {
@@ -106,7 +105,7 @@ th {
 footer {
     text-align: center;
     background: url("../imagens/banner.jpg");
-    height: 15.8em;
+    height: 11.2em;
 }
 
 .copyright {
